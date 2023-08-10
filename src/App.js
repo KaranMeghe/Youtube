@@ -1,12 +1,14 @@
+// eslint-disable-next-line no-unused-vars
+import "./App.css";
 import Body from "./Component/layout/Body";
 import Header from "./Component/layout/Header";
-import bootstrap from "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
-    <div className="App">
+    <body>
       <Header />
       <Body />
-    </div>
+    </body>
   );
 }
 

@@ -1,5 +1,5 @@
 const VideoContainer = () => {
-  return <div>Card</div>;
+  return <div>VideoContainer</div>;
 };
 
 export default VideoContainer;
