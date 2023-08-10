@@ -1,13 +1,34 @@
+import { HiHome, HiVideoCamera } from "react-icons/hi";
+import { MdOutlineSubscriptions } from "react-icons/md";
+import { SiYoutubemusic } from "react-icons/si";
+import { LiaDownloadSolid } from "react-icons/lia";
 const Sidebar = () => {
   return (
-    <div className="flex flex-col mr-2 border-2 border-black border-l-0 p-5">
-      <button>hello</button>
-      <button>hello</button>
-      <button>hello</button>
-      <button>hello</button>
-      <button>hello</button>
-      <button>hello</button>
-      <button>hello</button>
+    <div className="flex flex-col align-center mr-2">
+      <div className="p-3 hover:bg-gray-300  duration-300">
+        <HiHome className="text-3xl mx-auto " />
+        <h4 className="text-xs text-center font-semibold">Home</h4>
+      </div>
+
+      <div className="p-3 hover:bg-gray-300 duration-300">
+        <HiVideoCamera className="text-3xl mx-auto" />
+        <h5 className="text-xs text-center font-semibold">Shorts</h5>
+      </div>
+
+      <div className="p-3 hover:bg-gray-300 duration-300">
+        <MdOutlineSubscriptions className="text-3xl mx-auto" />
+        <h4 className="text-xs text-center font-semibold">Subscriptions</h4>
+      </div>
+
+      <div className="p-3 hover:bg-gray-300 duration-300">
+        <SiYoutubemusic className="text-3xl mx-auto" />
+        <h4 className="text-xs text-center font-semibold">Youtube Music</h4>
+      </div>
+
+      <div className="p-3 hover:bg-gray-300 duration-300">
+        <LiaDownloadSolid className="text-3xl mx-auto" />
+        <h4 className="text-xs text-center font-semibold">Downloads</h4>
+      </div>
     </div>
   );
 };
