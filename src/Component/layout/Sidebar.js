@@ -2,7 +2,16 @@ import { HiHome, HiVideoCamera } from "react-icons/hi";
 import { MdOutlineSubscriptions } from "react-icons/md";
 import { SiYoutubemusic } from "react-icons/si";
 import { LiaDownloadSolid } from "react-icons/lia";
+import { useSelector } from "react-redux";
+
 const Sidebar = () => {
+  const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
+
+  // Early Return Statement
+  if (!isMenuOpen) {
+    return null;
+  }
+
   return (
     <div className="flex flex-col align-center mr-2">
       <div className="p-3 hover:bg-gray-300  duration-300">
