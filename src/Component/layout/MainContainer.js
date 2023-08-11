@@ -1,10 +1,11 @@
 import ButtonList from "./ButtonList";
+import VideoContainer from "./VideoContainer";
 
 const MainContainer = () => {
   return (
-    <div>
+    <div className="ml-32">
       <ButtonList />
-      <h2>Main Container</h2>
+      <VideoContainer />
     </div>
   );
 };

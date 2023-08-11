@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-100 py-3 border-b border-gray-200">
+    <header className="bg-gray-100 py-4 border-b border-gray-200 fixed top-0 w-full">
       <nav className="flex justify-between items-baseline mt-1 mx-8">
         <div id="logo" className="flex justify-around  w-40">
           <GiHamburgerMenu

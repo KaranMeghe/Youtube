@@ -7,12 +7,12 @@ import store from "./redux/store";
 
 function App() {
   return (
-    <Provider store={store}>
-      <body>
+    <body>
+      <Provider store={store}>
         <Header />
         <Body />
-      </body>
-    </Provider>
+      </Provider>
+    </body>
   );
 }
 
