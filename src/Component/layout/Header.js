@@ -19,6 +19,7 @@ const Header = () => {
             className="text-2xl cursor-pointer"
             onClick={() => toggleMenuHandler()}
           />
+
           <div className="flex justify-center items-center">
             <BsYoutube className="text-2xl text-red-600" />
             <h1 className="text-xl">Youtube</h1>
