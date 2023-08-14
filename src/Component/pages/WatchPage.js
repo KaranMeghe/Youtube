@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { closeMenu } from "../../redux/slices/appSlice";
 import { useSearchParams } from "react-router-dom";
+
 const WatchPage = () => {
   const [searchParam] = useSearchParams();
-  console.log(searchParam.get("v"));
 
   const dispatch = useDispatch();
   useEffect(() => {

@@ -14,7 +14,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className="flex flex-col align-center mr-2 top-32 fixed bg-white h-full">
+    <div className="flex flex-col align-center mr-2 mt-16 pt-14 bg-white fixed  h-full">
       <div className="p-3 hover:bg-gray-300  duration-300">
         <Link to={"/"}>
           <HiHome className="text-3xl mx-auto " />

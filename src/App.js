@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import "./App.css";
-import Body from "./Component/layout/Body";
 import Header from "./Component/layout/Header";
+import Body from "./Component/layout/Body";
 import MainContainer from "./Component/layout/MainContainer";
 import WatchPage from "./Component/pages/WatchPage";
 import { Provider } from "react-redux";
