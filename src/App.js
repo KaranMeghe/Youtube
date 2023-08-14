@@ -8,6 +8,7 @@ import { Provider } from "react-redux";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import store from "./redux/store";
 
+// Creating App Router , then this router will provide to our app.
 const appRouter = createBrowserRouter([
   {
     path: "/",

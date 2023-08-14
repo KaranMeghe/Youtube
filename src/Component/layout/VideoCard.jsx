@@ -1,5 +1,5 @@
 const VideoCard = ({ videosInfo }) => {
-  console.log(videosInfo);
+  console.log(videosInfo, "vi");
   const { snippet, statistics } = videosInfo;
   const {
     channelTitle,
