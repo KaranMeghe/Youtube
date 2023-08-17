@@ -1,16 +1,9 @@
 const VideoCard = ({ videosInfo }) => {
   console.log(videosInfo, "vi");
   const { snippet, statistics } = videosInfo;
-  const {
-    channelTitle,
-    description,
-    localized,
-    publishedAt,
-    thumbnails,
-    title,
-  } = snippet;
+  const { channelTitle, thumbnails, title } = snippet;
 
-  const { commentCount, likeCount, viewCount } = statistics;
+  const { likeCount } = statistics;
 
   return (
     <div className="p-2 m-2 w-72 shadow-lg">

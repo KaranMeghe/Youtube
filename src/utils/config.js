@@ -13,4 +13,4 @@ export const YOUTUBE_VIDEO_API =
 
 // Youtebe search videos Api
 export const YOUTUBE_SEARCH_API =
-  "https://youtube.googleapis.com/youtube/v3/search?key=" + GOOGLE_API_KEY;
+  "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
