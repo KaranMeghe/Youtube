@@ -13,7 +13,7 @@ const ButtonList = () => {
     "Music",
   ];
   return (
-    <div className="flex fixed top-20 bg-white w-full h-12 py-1 mx-1 -z-10">
+    <div className="flex fixed top-20 bg-white w-full h-12 py-1 mx-1">
       {topicList.map((topic, index) => {
         return <Button name={topic} key={index} />;
       })}

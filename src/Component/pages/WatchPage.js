@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { closeMenu } from "../../redux/slices/appSlice";
 import { useSearchParams } from "react-router-dom";
 import useGetVideos from "../../hooks/UseGetVideos";
+import CommentsContainer from "../comment/CommentsContainer";
 
 const WatchPage = () => {
   const [searchParam] = useSearchParams(); // custom hook
@@ -15,7 +16,7 @@ const WatchPage = () => {
   }, []);
 
   return (
-    <div className="px-5 ml-10 mt-24">
+    <div className="px-5 ml-10 mt-24 flex flex-col">
       <iframe
         width="1200"
         height="600"
@@ -37,6 +38,7 @@ const WatchPage = () => {
           return null;
         }
       })}
+      <CommentsContainer />
     </div>
   );
 };
