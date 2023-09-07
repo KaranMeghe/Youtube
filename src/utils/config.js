@@ -21,7 +21,7 @@ export const YOUTUBE_SEARCH_API =
 export const COMMENT_DATA = [
   {
     id: uuidv4(),
-    name: "Karan Meghe",
+    name: "Karan Verma",
     comment: "Thats Amazing :)",
     replies: [
       {

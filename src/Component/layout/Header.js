@@ -71,9 +71,9 @@ const Header = () => {
 
           {searchQueries.length >= 1 && showSuggestion ? (
             <ul className="fixed bg-white w-[36%] rounded-md z-40 top-16 mt-2 shadow-lg p-2">
-              {suggestions.map((search, index) => {
+              {suggestions.map((search) => {
                 return (
-                  <li key={index} className="py-2 shadow-sm hover:bg-gray-200">
+                  <li key={search} className="py-2 shadow-sm hover:bg-gray-200">
                     🔎 {search}
                   </li>
                 );
