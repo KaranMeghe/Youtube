@@ -1,13 +1,11 @@
 import { BiUserCircle } from "react-icons/bi";
 
-const Chatmessage = ({ name, message }) => {
+const Chatmessage = ({ chat }) => {
   return (
-    <div>
-      <div className="flex align-baseline shadow-sm p-2">
-        <BiUserCircle className="text-2xl mx-1" />
-        <span className="font-bold">{name}</span>
-        <span>: {message}</span>
-      </div>
+    <div className="flex align-baseline  shadow-sm p-2">
+      <BiUserCircle className="text-xl mx-1" />
+      <span className="font-bold">{chat.name}</span>
+      <span className="text-md"> : {chat.message}</span>
     </div>
   );
 };

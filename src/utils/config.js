@@ -17,7 +17,6 @@ export const YOUTUBE_SEARCH_API =
   "https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
 // Comment Data
-
 export const COMMENT_DATA = [
   {
     id: uuidv4(),
@@ -87,5 +86,50 @@ export const COMMENT_DATA = [
         ],
       },
     ],
+  },
+];
+
+//Live chat Data
+export const LIVECHAT_DATA = [
+  {
+    id: uuidv4(),
+    name: "Karan Meghe",
+    message: "Destroyer Beerus Is Coming",
+  },
+
+  {
+    id: uuidv4(),
+    name: "Ashishnx",
+    message: "He is wake up lol",
+  },
+
+  {
+    id: uuidv4(),
+    name: "Random",
+    message: "Lol he did it",
+  },
+
+  {
+    id: uuidv4(),
+    name: "Greek Sou",
+    message: "Not Now",
+  },
+
+  {
+    id: uuidv4(),
+    name: "Redux",
+    message: "Toolkits sucks",
+  },
+
+  {
+    id: uuidv4(),
+    name: "Freedom",
+    message: "Freedom_900 subscribe please",
+  },
+
+  {
+    id: uuidv4(),
+    name: "King34",
+    message: "slaying",
   },
 ];
