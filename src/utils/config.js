@@ -72,6 +72,13 @@ export const COMMENT_DATA = [
         id: uuidv4(),
         name: "Aman Khushwala",
         comment: "Super Crazy Stuff :P",
+        replies: [
+          {
+            id: uuidv4(),
+            name: "Nayan Mohankar",
+            comment: "Hello Guys!",
+          },
+        ],
       },
       {
         id: uuidv4(),

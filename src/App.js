@@ -7,6 +7,7 @@ import WatchPage from "./Component/pages/WatchPage";
 import { Provider } from "react-redux";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import store from "./redux/store";
+import Demo from "./Component/live chat/Demo";
 
 // Creating App Router , then this router will provide to our app.
 const appRouter = createBrowserRouter([
@@ -21,6 +22,10 @@ const appRouter = createBrowserRouter([
       {
         path: "watch",
         element: <WatchPage />,
+      },
+      {
+        path: "demo",
+        element: <Demo />,
       },
     ],
   },
